@@ -3,7 +3,7 @@ title: "Test Table CSS"
 output: 
   html_document:
     theme: NULL
-    style: flat-table2.css
+    style: flat-table.css
 ---
 
 I want to be able to style my tables with CSS. From the looks of it, I should be able to do that 
