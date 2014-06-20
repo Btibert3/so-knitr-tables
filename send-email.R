@@ -1,7 +1,8 @@
 ## build the HTML.
 knitr::knit2html('my-report.RMD', stylesheet = 'flat-table.css')
 
-## send the HTML in an email
+## send the HTML in an email using the gmail server
+## assumes you are using GMAIL
 library(mailR)
 send.mail(from = "btibert3@gmail.com",
           to = c("btibert@bentley.edu"),
