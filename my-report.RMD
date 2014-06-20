@@ -23,4 +23,13 @@ library(knitr)
 kable(mt_head, "html", table.attr='class="table1"')
 ```
 
+## Proposed Workflow
+
+1.  Build the RMD File as if you were writing an email report
+2.  Ensure that the `CSS` file used to style the output is responsive  
+3.  Email the report using `mailR`
+
+Yes, it's that simple, and if you are a `CSS` styling wizard, you should be able to create some amazing 
+workflows with just `R Markdown` and `mailR`.
+
 
